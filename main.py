@@ -1,12 +1,10 @@
-from crawler.crawler import crawl_page
+from crawler.crawler import crawl_website
 
 if __name__ == "__main__":
-    test_url = "https://example.com"
-    text, links = crawl_page(test_url)
+    start_url = "https://example.com"
+    pages = crawl_website(start_url, max_pages=5)
 
-    print("\n--- PAGE TEXT (first 300 characters) ---")
-    print(text[:300])
-
-    print("\n--- LINKS FOUND ---")
-    for link in links:
-        print(link)
+    print(f"\n--- CRAWLED {len(pages)} PAGES ---")
+    for page in pages:
+        print(f"\nURL: {page['url']}")
+        print(f"Text preview: {page['text'][:150]}")

@@ -26,3 +26,31 @@ def crawl_page(url):
         links.append(full_url)
 
     return page_text, links
+
+def crawl_website(start_url, max_pages=10):
+    visited = set()
+    to_visit = [start_url]
+    all_pages_data = []
+
+    while to_visit and len(visited) < max_pages:
+        current_url = to_visit.pop(0)
+
+        if current_url in visited:
+            continue
+
+        text, links = crawl_page(current_url)
+        visited.add(current_url)
+
+        if text is None:
+            continue
+
+        all_pages_data.append({
+            "url": current_url,
+            "text": text
+        })
+
+        for link in links:
+            if link not in visited:
+                to_visit.append(link)
+
+    return all_pages_data
