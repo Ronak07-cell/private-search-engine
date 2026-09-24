@@ -4,10 +4,11 @@ A search engine built completely from scratch in Python — no external search l
 
 ## Features
 
-- **Web Crawler**: Recursively crawls websites starting from a seed URL, following links up to a configurable depth
+- **Web Crawler**: Recursively crawls a website starting from a seed URL, staying within the same domain, normalizing URLs to avoid duplicate anchor-based pages, and respecting a 1-second delay between requests
 - **Inverted Index**: Maps every word to the set of pages containing it, enabling fast lookups
 - **TF-IDF Ranking**: Scores and ranks search results by relevance using Term Frequency–Inverse Document Frequency, with smoothing to handle common terms
 - **Interactive CLI**: Search crawled content directly from the terminal
+
 
 ## How it works
 
