@@ -4,29 +4,29 @@
     "https://iana.org/domains/example"
   ],
   "domain": [
-    "https://iana.org/domains/example",
-    "https://iana.org/",
-    "https://iana.org/protocols",
     "https://example.com",
-    "https://iana.org/domains"
+    "https://iana.org/",
+    "https://iana.org/domains",
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "this": [
     "https://example.com",
     "https://iana.org/protocols"
   ],
   "is": [
-    "https://iana.org/domains/example",
-    "https://iana.org/",
-    "https://iana.org/protocols",
     "https://example.com",
-    "https://iana.org/domains"
+    "https://iana.org/",
+    "https://iana.org/domains",
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "for": [
-    "https://iana.org/domains/example",
-    "https://iana.org/",
-    "https://iana.org/protocols",
     "https://example.com",
-    "https://iana.org/domains"
+    "https://iana.org/",
+    "https://iana.org/domains",
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "use": [
     "https://example.com",
@@ -34,16 +34,16 @@
     "https://iana.org/domains"
   ],
   "in": [
-    "https://iana.org/domains/example",
-    "https://iana.org/",
-    "https://iana.org/protocols",
     "https://example.com",
-    "https://iana.org/domains"
+    "https://iana.org/",
+    "https://iana.org/domains",
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "documentation": [
     "https://example.com",
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "examples": [
     "https://example.com",
@@ -51,8 +51,8 @@
   ],
   "without": [
     "https://example.com",
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "needing": [
     "https://example.com"
@@ -73,124 +73,124 @@
   ],
   "more": [
     "https://example.com",
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "domains": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "protocols": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "numbers": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "about": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "instructions": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "and": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "guides": [
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/domains"
   ],
   "as": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "described": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "rfc": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "a": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "number": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "of": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "such": [
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/domains"
   ],
   "com": [
     "https://iana.org/domains/example"
   ],
   "org": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "are": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "maintained": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "purposes": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "these": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "may": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "be": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "used": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "illustrative": [
     "https://iana.org/domains/example"
@@ -202,110 +202,110 @@
     "https://iana.org/domains/example"
   ],
   "coordination": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "with": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "us": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "they": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "not": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "available": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "registration": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "or": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "transfer": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "we": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "provide": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "web": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "service": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "on": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "the": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "hosts": [
     "https://iana.org/domains/example"
   ],
   "to": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "basic": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "information": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "purpose": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "services": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "provided": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "best": [
     "https://iana.org/domains/example"
@@ -314,23 +314,23 @@
     "https://iana.org/domains/example"
   ],
   "but": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "designed": [
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/domains"
   ],
   "support": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "production": [
     "https://iana.org/domains/example"
   ],
   "applications": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "while": [
     "https://iana.org/domains/example"
@@ -339,8 +339,8 @@
     "https://iana.org/domains/example"
   ],
   "traffic": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "incorrectly": [
     "https://iana.org/domains/example"
@@ -352,334 +352,334 @@
     "https://iana.org/domains/example"
   ],
   "please": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "do": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "design": [
     "https://iana.org/domains/example"
   ],
   "that": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "require": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "have": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "operating": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "http": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "further": [
-    "https://iana.org/protocols",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols"
   ],
   "reading": [
     "https://iana.org/domains/example"
   ],
   "iana": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "managed": [
     "https://iana.org/domains/example"
   ],
   "reserved": [
+    "https://iana.org/domains/example",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains"
   ],
   "last": [
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/domains"
   ],
   "revised": [
     "https://iana.org/domains/example"
   ],
   "names": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "root": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "zone": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "registry": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "int": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "arpa": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "idn": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "repository": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "resources": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "registries": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "rir": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "allocation": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "data": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "abuse": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "protocol": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "time": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "database": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "news": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "performance": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "organization": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "archive": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "contact": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "functions": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "coordinate": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "internet": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "s": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "globally": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "unique": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "identifiers": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "by": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "public": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "technical": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "an": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "affiliate": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "icann": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "privacy": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "policy": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "terms": [
-    "https://iana.org/protocols",
     "https://iana.org/",
-    "https://iana.org/domains",
-    "https://iana.org/domains/example"
+    "https://iana.org/domains/example",
+    "https://iana.org/protocols",
+    "https://iana.org/domains"
   ],
   "assigned": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "authority": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "global": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "dns": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "ip": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "addressing": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "other": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "performed": [
     "https://iana.org/"
   ],
   "management": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "assignments": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "cctlds": [
     "https://iana.org/"
@@ -691,65 +691,65 @@
     "https://iana.org/"
   ],
   "zones": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "top": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "level": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "practices": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "spaces": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "allocations": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "made": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "regional": [
     "https://iana.org/"
   ],
   "addresses": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "network": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "central": [
     "https://iana.org/"
   ],
   "name": [
+    "https://iana.org/",
     "https://iana.org/protocols",
-    "https://iana.org/domains",
-    "https://iana.org/"
+    "https://iana.org/domains"
   ],
   "many": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "apply": [
     "https://iana.org/"
   ],
   "assignment": [
-    "https://iana.org/protocols",
-    "https://iana.org/"
+    "https://iana.org/",
+    "https://iana.org/protocols"
   ],
   "operate": [
     "https://iana.org/domains"
