@@ -5,8 +5,8 @@ from search.search import load_index, search
 
 
 def run_crawler_and_indexer():
-    start_url = "https://example.com"
-    pages = crawl_website(start_url, max_pages=5)
+    start_url = "https://docs.python.org/3/tutorial/"
+    pages = crawl_website(start_url, max_pages=25)
 
     with open("data/crawled_pages.json", "w") as f:
         json.dump(pages, f, indent=2)

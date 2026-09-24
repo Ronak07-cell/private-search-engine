@@ -1,6 +1,11 @@
+import time
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, urlunparse
+
+def normalize_url(url):
+    parsed = urlparse(url)
+    return urlunparse(parsed._replace(fragment=""))
 
 
 def crawl_page(url):
@@ -27,10 +32,11 @@ def crawl_page(url):
 
     return page_text, links
 
-def crawl_website(start_url, max_pages=10):
+def crawl_website(start_url, max_pages=10, same_domain_only=True):
     visited = set()
-    to_visit = [start_url]
+    to_visit = [normalize_url(start_url)]
     all_pages_data = []
+    start_domain = urlparse(start_url).netloc
 
     while to_visit and len(visited) < max_pages:
         current_url = to_visit.pop(0)
@@ -40,6 +46,7 @@ def crawl_website(start_url, max_pages=10):
 
         text, links = crawl_page(current_url)
         visited.add(current_url)
+        time.sleep(1)
 
         if text is None:
             continue
@@ -50,7 +57,12 @@ def crawl_website(start_url, max_pages=10):
         })
 
         for link in links:
-            if link not in visited:
-                to_visit.append(link)
+            normalized_link = normalize_url(link)
+
+            if same_domain_only and urlparse(normalized_link).netloc != start_domain:
+                continue
+
+            if normalized_link not in visited:
+                to_visit.append(normalized_link)
 
     return all_pages_data
