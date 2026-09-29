@@ -1,6 +1,11 @@
 import json
 import re
 from collections import defaultdict
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+
+STOP_WORDS = set(stopwords.words("english"))
+stemmer = PorterStemmer()
 
 
 def load_pages(filepath="data/crawled_pages.json"):
@@ -12,6 +17,8 @@ def load_pages(filepath="data/crawled_pages.json"):
 def tokenize(text):
     text = text.lower()
     words = re.findall(r"\b[a-z]+\b", text)
+    words = [word for word in words if word not in STOP_WORDS]
+    words = [stemmer.stem(word) for word in words]
     return words
 
 
