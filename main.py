@@ -1,7 +1,7 @@
 import json
 from crawler.crawler import crawl_website
 from indexer.indexer import load_pages, build_index, save_index
-from search.search import load_index, search
+from search.search import load_index, search, is_phrase_query, phrase_search
 
 
 def run_crawler_and_indexer():
@@ -27,7 +27,10 @@ def run_search():
         if query.lower() == "exit":
             break
 
-        results = search(query, index, pages)
+        if is_phrase_query(query):
+            results = phrase_search(query, pages)
+        else:
+            results = search(query, index, pages)
 
         if not results:
             print("No results found.\n")

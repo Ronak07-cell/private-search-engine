@@ -49,3 +49,19 @@ def search(query, index, pages):
     ranked_results = sorted(scores.items(), key=lambda item: item[1], reverse=True)
 
     return ranked_results
+
+
+def is_phrase_query(query):
+    return query.startswith('"') and query.endswith('"') and len(query) > 2
+
+
+def phrase_search(phrase, pages):
+    phrase_lower = phrase.lower().strip('"')
+    results = []
+
+    for page in pages:
+        text_lower = page["text"].lower()
+        if phrase_lower in text_lower:
+            results.append((page["url"], 1.0))
+
+    return results

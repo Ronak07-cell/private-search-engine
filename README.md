@@ -8,6 +8,8 @@ A search engine built completely from scratch in Python — no external search l
 - **Inverted Index**: Maps every word to the set of pages containing it, enabling fast lookups
 - **TF-IDF Ranking**: Scores and ranks search results by relevance using Term Frequency–Inverse Document Frequency, with smoothing to handle common terms
 - **Interactive CLI**: Search crawled content directly from the terminal
+- **Stop word removal & stemming**: uses NLTK to filter common words and reduce terms to their root form (e.g., "running" and "run" match the same results), improving recall and reducing index size
+- **Phrase search**: wrap a query in double quotes (e.g., `"exact phrase"`) to match an exact sequence of words, rather than independently scoring individual terms
 
 
 ## How it works
