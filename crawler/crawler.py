@@ -1,7 +1,21 @@
+from urllib.robotparser import RobotFileParser
 import time
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, urlunparse
+
+def get_robots_parser(start_url):
+    parsed = urlparse(start_url)
+    robots_url = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
+
+    rp = RobotFileParser()
+    rp.set_url(robots_url)
+    try:
+        rp.read()
+    except Exception:
+        return None
+
+    return rp
 
 def normalize_url(url):
     parsed = urlparse(url)
@@ -33,15 +47,22 @@ def crawl_page(url):
     return page_text, links
 
 def crawl_website(start_url, max_pages=10, same_domain_only=True):
+    robots_parser = get_robots_parser(start_url)
     visited = set()
     to_visit = [normalize_url(start_url)]
     all_pages_data = []
     start_domain = urlparse(start_url).netloc
 
+    
+
     while to_visit and len(visited) < max_pages:
         current_url = to_visit.pop(0)
 
         if current_url in visited:
+            continue
+
+        if robots_parser and not robots_parser.can_fetch("*", current_url):
+            print(f"Skipping {current_url} - disallowed by robots.txt")
             continue
 
         text, links = crawl_page(current_url)
