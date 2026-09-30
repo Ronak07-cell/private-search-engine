@@ -10,8 +10,9 @@ A search engine built completely from scratch in Python — no external search l
 - **Interactive CLI**: Search crawled content directly from the terminal
 - **Stop word removal & stemming**: uses NLTK to filter common words and reduce terms to their root form (e.g., "running" and "run" match the same results), improving recall and reducing index size
 - **Phrase search**: wrap a query in double quotes (e.g., `"exact phrase"`) to match an exact sequence of words, rather than independently scoring individual terms
-- **`robots.txt` compliance**: checks each site's crawling rules before visiting any page, skipping URLs disallowed for general crawlers — the same etiquette real search engines follow
 
+- **`robots.txt` compliance**: checks each site's crawling rules before visiting any page, skipping URLs disallowed for general crawlers — the same etiquette real search engines follow
+- **Smart URL normalization**: strips non-essential query parameters (tracking codes, sort order) while preserving pagination (`?page=N`), preventing duplicate crawls of the same content under different tracking parameters
 
 ## How it works
 

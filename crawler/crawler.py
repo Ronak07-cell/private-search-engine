@@ -2,7 +2,7 @@ from urllib.robotparser import RobotFileParser
 import time
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import urljoin, urlparse, urlunparse, parse_qs, urlencode
 
 def get_robots_parser(start_url):
     parsed = urlparse(start_url)
@@ -19,8 +19,15 @@ def get_robots_parser(start_url):
 
 def normalize_url(url):
     parsed = urlparse(url)
-    return urlunparse(parsed._replace(fragment=""))
+    query_params = parse_qs(parsed.query)
 
+    essential_params = {}
+    if "page" in query_params:
+        essential_params["page"] = query_params["page"]
+
+    new_query = urlencode(essential_params, doseq=True)
+
+    return urlunparse(parsed._replace(fragment="", query=new_query))
 
 def crawl_page(url):
     print(f"Crawling: {url}")
